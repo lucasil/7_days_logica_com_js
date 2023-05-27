@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style_2o_dia.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2º dia - Lógica com JavaScript</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="input_nome">Qual o seu nome?</label><br>
+            <input id="input_nome" type="text"><br>
+            <label for="input_idade">Quantos anos você tem?</label><br>
+            <input id="input_idade" type="number" min="1"><br>
+            <label for="input_ling">Qual linguagem de programação você está estudando?</label><br>
+            <select id="input_ling">
+                <option value=""></option>
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="C">C</option>
+                <option value="C#">C#</C></option>
+                <option value="c++">C++</option>
+                <option value="Python">Python</option>
+                <option value="Cobol">Cobol</option>
+            </select><br>
+        </fieldset>
+    </form>
+    <input id="input_submit" type="submit">
+    <h2 id="mensagem">Olá desconhecido!</h2>
+    <div id="div_ex_extra">
+        <h2 id="mensagem2"></h2>
+        <input id="input_gosta" type="number" min="1" max="2">
+        <input id="input_submit2" type="submit">
+        <h2 id="mensagem3"></h2>
+    </div>
+    <script src="./script_2o_dia.js"></script>
+</body>
+</html>
